@@ -1,0 +1,133 @@
+header {
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 60px;
+	color: white;
+	background-color: black;
+	opacity: .6;
+	position: relative;
+	left: 300px;
+	width: 850px;
+}
+
+#Intro {
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	opacity: .75;
+	position: relative;
+	top: -50px;
+	left: 300px;
+	width: 850px;
+}
+
+#userFighter {
+	position: relative;
+	top: 50px;
+	left: 250px;
+}
+
+#computerFighter {
+	position: relative;
+	top: 50px;
+	left: 150px;
+}
+
+#combatLog {
+	font-family: "Courier New";
+	color: white;
+	background-color: black;
+	opacity: .75;
+	text-align: left;
+	width: 200px;
+	height: 405px;
+	border: 5px solid grey;
+	position: relative;
+	top: 31px;
+	left: 200px;
+	display: inline-block;
+}
+
+#winnerAlert {
+	font-family: "Courier New";
+	color: white;
+	background-color: red;
+	opacity: .90;
+	width: 800px;
+	height: 505px;
+	border: 5px solid grey;
+	position: fixed;
+	top: 150px;
+	left: 325px;
+	display: inline-block;
+	z-index: 10;
+	display: none;
+}
+
+.scrollbox {
+height: 200px;
+width: 200px;
+overflow: auto;
+}
+
+#roundButton {
+	font-family: "Courier New";
+	font-size: 20px;
+	position: relative;
+	left: 660px;
+	top: 15px;
+}
+
+#hitAlert {
+	font-family: "Courier New";
+	font-size: 14px;
+	position: relative;
+	left: 0px;
+	top: -20px;
+	width: 195px;
+	height: 300px;
+	overflow: auto;
+
+}
+body {
+	background-image: url("Images/Thunderdome.png");
+		/* image source 2/19/15 14:09: "http://vignette2.wikia.nocookie.net/
+			teenwolf/images/f/f3/Werewolf_Thunderdome_Cover.png/revision/
+			latest?cb=20130611213641%22)" */"
+}
+
+.fighter {
+	font-family: "Courier New";
+	color: white;
+	text-align: center;
+	background-color: black;
+	opacity: .75;
+	width: 405px;
+	height: 405px;
+	border: 5px solid grey;
+	display: inline-block;
+	margin: auto;
+}
+
+#winner {
+	font-family: "Courier New";
+	font-size: 140px;
+	background-color: red;
+	opacity: .90;
+	color: white;
+	text-align: center;
+}
+
+.onHit {
+	background-color: red;
+	width: 355px;
+	height: 355px;
+}
+
+.picture {
+	width: 400px;
+	height: 250px;
+}
+
